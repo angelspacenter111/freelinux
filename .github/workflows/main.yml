@@ -24,7 +24,7 @@ jobs:
         sudo systemctl start xrdp
 
     - name: Set xrdp password
-      run: echo -e "P@ssw0rd!\nP@ssw0rd!" | sudo passwd $USER
+      run: echo -e "Dhyey@1995\nDhyey@1995" | sudo passwd $USER
 
     - name: Create TCP Tunnel
       run: ./ngrok tcp 3389
